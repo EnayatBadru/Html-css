@@ -35,7 +35,7 @@ header{
     box-shadow: -16px 1px 15px 8px #033c1d9a;
 }
 header p {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .texto-logo{
