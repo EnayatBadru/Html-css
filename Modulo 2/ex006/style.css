@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(to right, #A97C73, #B0C592);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+h1{
+    text-align: center;
+    color:#471323;
+    text-shadow: 2px 2px 2px rgba(32, 9, 8, 0.308);
+    font-size:2em;
+}
+h2{
+    color:#5B2E48;
+    font-size:1.2em;
+}
+p{
+    font-family:cursive;
+    text-align: justify;
+    font-size: 1em;
+}
+main{
+    background-color:white;
+    width:600px;
+    padding:10px;
+    margin:auto;
+    border-radius:15px;
+    box-shadow:10px 10px 10px rgba(73, 53, 50, 0.363);
+}

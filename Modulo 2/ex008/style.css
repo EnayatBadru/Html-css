@@ -1,0 +1,49 @@
+@font-face {
+    font-family:'Negrito' ;
+    src: url(OldLondon.ttf) format('truetype'), url(OldLondonAlternate.ttf) format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+*{
+    margin:0px;
+    padding:3px;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-image:linear-gradient(to right, rgba(134, 134, 255, 0.692), rgba(81, 81, 204, 0.829));
+    text-align: justify;
+}
+main{
+    background-color:aliceblue;
+    width: 600px;
+    padding:10px;
+    margin:auto;
+    color:black;
+}
+h1,h2,h3,p{
+color:black;
+font-weight:lighter;
+}
+p{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h1{
+    font-family:Negrito;
+    font-weight:bold;
+    text-shadow: 4px 3px 10px rgba(0, 0, 0, 0.664);
+    font-size:2em;
+    text-align:center;
+}
+h2{
+    font-weight:bold;
+}
+h3{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size:0.80em;
+}

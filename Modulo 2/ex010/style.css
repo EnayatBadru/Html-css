@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-decoration:none;
+    text-align:justify;
+}
+body{
+    background-image:linear-gradient(to right,#BC96E6,#AE759F);
+    text-align:justify;
+    font-family:Arial;
+}
+
+header{
+    text-align:center;
+    font-weight:lighter;
+}
+main{
+    background-color:#EFF6EE;
+    width:650px;
+    margin:auto;
+    color:#273043;
+    border-radius:10px;
+    box-shadow:10px 10px 10px #462e3f88;
+}
+#primeiro{
+    background-image: linear-gradient(to right, #bd96e66c,#ae759f27);
+    text-shadow: 2px 2px 15px #141822af;
+}
+h3{
+    font-family: 'Kalam', cursive;
+    font-weight: bold;  
+    font-size:0.90em;  
+}
+.primeiro{
+    padding:2px;
+    width:324px;
+    background-color:#273043;
+}
+.segundo{
+    padding:1px;
+    width:209px;
+    background-color:#273043;
+}
+.terceiro{
+    padding:1px;
+    width:186px;
+    background-color:#273043;
+}
+.quarto{
+    padding:0px;
+    width:100%;
+    background-color:#eff6eeab;
+}
+.comeco{
+    text-align:center;
+    color:#eff6eeab;
+}
+.final{
+    text-align:center;
+    color:#eff6eeab;
+}

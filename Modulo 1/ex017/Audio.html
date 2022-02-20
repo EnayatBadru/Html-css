@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImagensDinamicas</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou
+    simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+        <picture> <!-- ela permite criar varias fontes -->
+        <!--A hierarquia vem da imagem mais pequena
+             para mais grande se clocar o contrario nao vai funcionar-->
+            <Source media="(max-width: 750px)" srcset="imagens/Pequena.png" type="image/png">
+            <Source media="(max-width: 1050px)" srcset="imagens/Media.png" type="image/png">
+            <img src="imagens/Grande.png" alt="Imagem flexíveis">
+        
+        </picture>
+        <!--Inicio de tudo devemos colocar a tag <audio> para nomear oque sera executado -->
+
+        <!--Para add um audio no site deve se usar o comando controls autoplay
+        para fazer tocar em qualquer navegador -->
+
+        <h1>Reproduzindo audios</h1>
+        <p>Vamos aprender a reproduzir audios</p>
+        <br>
+        <p>primeira maneira</p>
+        <audio src="Midia/Floating Home - Brian Bolger.mp3" controls></audio>
+        <!--Compatives com os formatos
+        MP3 WAV OGG-->
+        <br>
+        <p>Segunda maneira</p>
+        <audio preload="metadata" controls loop>
+            <source src="Midia/Straight Fuse - French Fuse.mp3" type="audio/mpeg">
+            <source src="Midia/Straight Fuse - French Fuse.mp3" type="audio/ogg">
+            <source src="Midia/Straight Fuse - French Fuse.mp3" type="audio/wav">
+        </audio>
+        <p>Infelizmente seu navegador nao suporta audio</p>
+            <p>para escutar o audio clique <a href="Midia/Straight Fuse - French Fuse.mp3">aqui</a></p>
+
+</body>
+</html>

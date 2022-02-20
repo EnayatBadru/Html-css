@@ -1,0 +1,112 @@
+*{
+    margin:-1;
+    padding:3;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: gray;
+    font-size: sans-serif;
+    margin: 0;
+}
+
+/*HEADER*/
+
+header{
+    background:white;
+    margin: 7px;
+    padding: -1px;
+    border-radius: 10px;
+}
+
+header > h1{
+    width: 300px;
+    display:inline-block;
+    margin:5px;
+    padding:0x;
+} 
+
+header > nav{
+    display: inline-block;
+    width: 78vw;
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    text-align: right;
+}
+
+nav > a{
+    text-align: right;
+    color: black;
+    margin-left: 70px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    color:gray;
+    transition: 0.4s;
+}
+
+/*MAIN*/
+
+.menu{
+    background: darkgray;
+    margin: 7px;
+    padding: 0px;
+    border-radius: 3px;
+}
+.assunto-paragrafo{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+#assunto{
+    margin:5px;
+    padding: 0px;
+    display:block;
+    font-size: 1em;
+    color: #000;
+}
+
+#assunto .menu{
+    /*background: white;*/
+    font-size: 1rem;
+    font-style: normal;
+    font-family: serif;
+}
+
+.esporte{
+    font-weight: bold;
+    display:inline;
+}
+
+.esporte-paragrafo{
+margin:5px;
+padding: 0px;
+}
+
+.esporte > .esporte-paragrafo{
+    display: none;
+}
+
+.esporte:hover > .esporte-paragrafo{
+    display: block;
+}
+
+.educacao{
+    font-weight: bold;
+    display:inline;
+}
+
+.educacao > .educacao-paragrafo{
+    display: none;
+}
+
+.educacao:hover > .educacao-paragrafo{
+    display: block;
+}
+
+

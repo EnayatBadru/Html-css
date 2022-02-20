@@ -1,0 +1,236 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background-image:linear-gradient(to right, #171738, #2E1760);
+margin: 0px;
+padding: 30px;
+}
+
+/*
+HEADER
+*/
+header{
+    background-color:lightblue;
+    padding: 10px;
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+header > h1{
+    color:darkblue;
+    display: inline-block;
+    width: 20%;
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Monoton', cursive;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+nav{
+    display: inline-block;
+    width: 78%;
+    text-align: right;
+    padding: 5px;
+}
+
+nav > a{
+    margin-left:60px;;
+    text-decoration: none;
+    color:darkblue;
+    font-weight: bolder;
+    font-size:1.2em;
+    font-family: 'Poiret One', cursive;
+}
+
+nav > a:hover{
+    color:blue;
+    transition:0.5s;
+}
+
+nav > a:active{
+    background-color:darkblue;
+    color:lightblue;
+}
+
+nav > a::after{
+    content: '|';
+    margin-left:50px;
+}
+
+nav > .especial::after{
+    content:'';
+}
+
+/*
+MAIN
+*/
+
+main{
+    background-color:#DFF3E4;
+    padding: 10px;
+    margin: 10px;
+
+    border-top: 13px dashed #211849;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#assunto{
+    /*background-color:lightgray;*/
+    display:inline-block;
+    margin:10px;
+    padding:10px;
+    width:200px;
+    text-align:left;
+    border-radius:20px;
+}
+
+.menu{
+    margin:8px;
+    display:inline-block;
+    background-color:lightblue;
+    height:20px;
+    width:200px;
+    border: 1px solid darkgray;
+    text-align:center;
+    border-radius:20px;
+}
+
+.menu:hover{
+    background-color:blue;
+    color:blue;
+}
+
+.menu > .esporte-paragrafo{
+    display:none;
+    color:white;
+}
+
+.menu:hover > .esporte-paragrafo{
+    display:block;
+}
+
+.educacao{
+    margin:8px;
+    display:inline-block;
+    background-color:lightblue;
+    height:20px;
+    width:200px;
+    border: 1px solid darkgray;
+    text-align:center;
+    border-radius:20px;
+}
+
+.educacao:hover{
+    background-color:blue;
+    color:blue;
+}
+
+/*
+.esporte-paragrafo{
+    
+}
+*/
+
+.educacao > .esporte-paragrafo{
+    display:none;
+    color:white;
+}
+
+.educacao:hover > .esporte-paragrafo{
+    display:block;
+}
+
+
+.assunto-paragrafo{
+    color:darkblue;
+}
+
+.assunto-paragrafo:hover{
+    color:lightblue;
+}
+
+
+
+.assunto-link{
+    display:inline-block;
+    color:darkblue;
+}
+.assunto-link:hover{
+    color:blue;
+    transition:0.3s;
+}
+
+.titulo-1{
+    text-align:center;
+}
+
+.titulo-2{
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.603);;
+    text-align:center;
+}
+
+#paragrafo{
+    background-color:lightgray;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    margin-bottom:5px;
+    box-shadow: 10px 10px 15px rgba(128, 128, 128, 0.705);
+}
+
+.paragrafo{
+display: inline-block;
+width:600px;
+margin:20px;
+padding:10px;
+}
+
+article{
+    background-color:lightgray;
+    padding: 5px;
+}
+
+.aside{
+    text-align:justify;
+    background-color:lightgray;
+    color:darkgray;
+    font-weight:bold;
+    font-size:1.2em;
+    padding-left:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.aside:hover{
+    color:black;
+}
+
+/*
+FOOTER
+*/
+
+footer{
+    display:block;
+    background-color:black;
+    color:lightgray;
+    text-align:center;
+    padding: 1px;
+    margin: auto;
+    width:99%;
+    border-radius:10px;
+}

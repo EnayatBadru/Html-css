@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familia de Fontes Externas, Que podem ser privadas ou que nao estao na google fonts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <h1>Familia de Fontes Externas, Que podem ser privadas ou que nao estao na google fonts</h1>
+    <hr>
+    <p>Procurar pelo site:
+    <br> Dafont.com.pt 
+    <br> NB: Ver se tem todos os tipos de Glifos para nao correr o erro de criar um site sem acentuação.
+    <br>Nesse site tem mais fontes possíveis para o seu uso.
+    <br>Baixar as fontes e colocar na pasta onde existe o site Criado.
+    <br>Depois de Importar a Fonte nas CSS deve usar o comando.
+    <br>
+    <br>
+</p>
+    <h3>
+        @Font-Face{
+            <br>Font-Family:'Pode Dar Qualquer Nome Para a Fonte';
+            <br>Src:url('Nome da Fonte.ott') format ('opentype'),
+            url('Nome da Fonte.ttf') format ('truetype');
+            <br> }
+    </h3>
+
+        <br><br>
+        Bom isso é Uma das regras das CSS por isso deve colocar por fora onde é adicionado os metodos.
+    </p>
+
+    <h1>Tipos de Formatos</h1>
+    <hr>
+    <h2>Alguns Formatos de Tipos de Fontes Baixadas</h2>
+    <p>
+        *Opentype (otf);
+    <br>*truetype (ttf);
+    <br>*embedded-opentype;
+    <br>*truetype-aat (Apple Advanced typography);
+    <br>*Svg.
+     </p>
+     <br>
+     <h2>Como Usar a Fonte?</h2>
+     <p>
+        Para usar essa fonte você precisa fazer todos os passos a cima
+        <br>Depois de fazer tudo a cima voce deve ir nas CSS e depois escolhe normalmente a fonte.
+        <br>Como por Exemplo:
+     </p>
+     <br><br><h3>
+         h1{
+            <br>Font-Family:'Pode Dar Qualquer Nome Para a Fonte';
+            <br>}
+     </h3>
+        <br><br>
+        <p>
+            assim se você quiser usar a fonte deve escrever exatamente como, nomeou a sua fonte nas Condicoes das CSS.
+            <br>Deve usar o nome Exatamente igual Como Vimos no exemplo a cima.
+        </p>
+
+        <h1>Como Guardar As Fontes?</h1>
+        <hr>
+        <p>Geralmente para guardar as suas fontes deve criar uma pasta e colocar as suas fontes.
+            <br> Depois no url das fontes no comando das CSS onde nos importamos uma fonte que não exista pelo comando. 
+            <br> Font-Face nos podemos escrevcer exatamente assim se a Sua pasta por exmplo estiver gravada com o nome de Fontes.
+        </p>
+        <br>
+        <h3>
+            @Font-Face{
+                <br>Font-Family:'Pode Dar Qualquer Nome Para a Fonte';
+                <br>Src:url('Fonte/Nome da Fonte.ott') format ('opentype'),
+                url('Fonte/Nome da Fonte.ttf') format ('truetype');
+                <br> }
+        </h3>
+        <br>
+        <p>
+            Fazendo isso o seu site vai conseguir achar a sua fonte em uma pasta,
+            <br>Sabendo que a sua pasta deve estar onde o site esta sendo criado para nao dar qualquer tipo de problema. 
+        </p>
+    </main>
+    <footer style="text-align:center; color:black; font-weight:bolder; font-size:0.70em;">
+        ⚠️Esse site não foi criado usando uma pasta para guardar as FONTES por questão de dúvidas, por isso decidimos explicar tudo sobre⚠️
+    </footer>
+</body>
+</html>

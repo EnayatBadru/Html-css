@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elementos em css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+
+        <div id="primeiro">
+
+            <h1>Personalizando Link</h1>
+
+<div class="primaria">
+    
+    
+                    <div class="primeiro">
+                        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositorio GitHub</a></li>
+                        <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal Youtube</a></li>
+                        <li><a href="https://www.cursoemvideo.com/" target="_blank">Site Cursos em Videos</a></li>
+                    </div>
+    
+                    <div class="segundo">
+                        <h1>Pseudo-classes</h1>
+                        <p>As Pseudo-classes eles são representados por dois pontos ":"</p>
+                        <h2>:visited</h2>
+                        <p>Isso faz com que cada link visitado fica de uma determida cor, isto é, link ou qualquer outra palavra.</p>
+                        <h2>:active</h2>
+                        <p>Esse comando faz que cada link seja clicado ele executa uma determinada função.</p>
+                    </div>
+    
+                    <div class="segundo">
+                        <h1>Pseudo-elementos</h1>
+                        <p>As Pseudo-elementos eles são representados por dois pontos seguidos "::"</p>
+                        <h2>::befor</h2>
+                        <p><strong>Antes</strong> de todos os "link", isto é, se fosse a::befor a definição seria exatamente essa, <strong>antes</strong> de todos os links vai ter uma determinda coisa.</p>
+                        <h2>::after</h2>
+                        <p>Depois de todos os "link", isto é, se fosse a::after a definição seria exatamente essa, depois de todos os links vai ter uma determinda coisa.</p>
+                    </div>
+</div>
+
+        </div>
+
+        <div id="segundo">
+            <h1>Alguns Exemplos das Pseudo-Classes e Pseudo-Elementos</h1>
+
+            <div class="primaria">
+                <div class="segundo">
+                    <h2>Pseudo-Classes</h2>
+                    <h1>:visited</h1>
+                    <h3>a:visited{
+                    <br>    color:yellow;
+                    <br>}</h3>
+                
+                </div>
+                <div class="segundo">
+                    <h1>:active</h1>
+                    <h3>a:active{
+                        <br>    color:blue;
+                        <br>}</h3>
+                </div>
+            </div>
+
+            <h1>Pseudo-Elmentos</h1>
+
+            <div class="primaria">
+                <div class="segundo">
+                    <h1>::befor</h1>
+                    <h3>a::befor{
+                        <br>    content:'Escrever Algo';
+                        <br>}</h3>
+                </div>
+                <div class="segundo">
+                    <h1>::after</h1>
+                    <h3>a::after{
+                        <br>    content:'Escrever Algo';
+                        <br>}</h3>
+                </div>
+            </div>
+
+        </div>
+        
+    </main>
+    
+    <footer>
+        <hr class="um">
+        <h2 class="primeiro-h2">Site criado por Enayat Badrú em 2022, com conhecimentos adquiridos no Site Cursos em Videos Com Gustavo Guanabara </h2>
+    </footer>
+
+</body>
+</html>

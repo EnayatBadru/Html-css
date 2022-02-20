@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    text-decoration:none;
+}
+div{
+    margin:8px;
+    display:inline-block;
+    background-color:#EFF6EE;
+    height:200px;
+    width:200px;
+    border: 1px solid black;
+    text-align:center;
+}
+p{
+    text-align:center;
+    
+}
+div#a:hover{
+    background-color: yellow;
+}
+div#b:hover{
+    background-color: red;
+}
+div#c:hover{
+    background-color: blue;
+}
+div#d:hover{
+    background-color: gray;
+}
+a{
+    color:black;
+    font-weight:bold;
+}
+a:hover{
+    text-decoration:underline;
+    color:white;
+    font-weight:bold;
+}
