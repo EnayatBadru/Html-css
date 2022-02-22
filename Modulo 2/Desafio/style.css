@@ -258,3 +258,16 @@ footer > p{
     padding: 5px;
     font-size: 0.90em;
 } 
+
+.link__rodape{
+    color: white;
+    background: none;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.link__rodape:hover{
+    color: darkgreen;
+    text-decoration: none;
+    background: lightgreen;
+}
