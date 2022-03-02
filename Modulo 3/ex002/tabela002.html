@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Grander</title>
+    <style>
+        body{
+            text-align: center;
+            font-size: 2.4vh;
+        }
+
+        h1{
+            font-size: 2.8vw;
+            font-size: 5vh;
+        }
+
+        main{
+            width: 60vw;
+            height: 96vh;
+            margin: auto;
+            margin-top: 20px;
+            border: 1px solid black;
+            background: skyblue;
+            box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        table{
+            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+            text-align: left;
+            border-collapse: collapse;
+            width: 50vw;
+            margin: auto;
+        }
+        
+        thead tr{
+            box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        thead tr, tfoot tr{
+            text-align: center;
+            font-family: arial;
+        }
+
+        thead tr:hover{
+            background: white;
+        }
+
+        tfoot tr:hover{
+            background: white;
+        }
+
+        tr:hover{
+            background: lightgray;
+        }
+
+        tr, thead tr, tfoot tr{
+            background: white;
+        }
+        
+        tr.especial{
+            background: darkgray;
+        }
+
+        tr{
+            height: 6.2vh;
+        }
+        
+       tr, td, th{
+            border: 1px solid black;
+        }
+
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+        <h1 class="titulo">
+            Tabelas grandes em HTML
+        </h1><!--titulo-->
+<main>
+    <h2>População em Moçambique</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Provinciais</th>
+                    <th>Total Habitantes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Niassa</td>
+                    <td class="num"> 2,064,645  </td>
+                </tr>
+                <tr class="especial">
+                    <td>Cabo Delgado</td>
+                    <td class="num"> 2,597,016  </td>
+                </tr>
+                <tr>
+                    <td>Nampula</td>
+                    <td class="num">6,335,121 </td>
+                </tr>
+                <tr class="especial">
+                    <td>Zambézia</td>
+                    <td class="num">   5,709,418  </td>
+                </tr>
+                <tr>
+                    <td>Tete</td>
+                    <td class="num">2,989,258    </td>
+                </tr>
+                <tr class="especial">
+                    <td>Manica</td>
+                    <td class="num">  2,174,432  </td>
+                </tr>
+                <tr>
+                    <td>Sofala</td>
+                    <td class="num">  2,528,442</td>
+                </tr>
+                <tr class="especial">
+                    <td>Inhambane</td>
+                    <td class="num"> 1,547,906  </td>
+                </tr>
+                <tr>
+                    <td>Gaza</td>
+                    <td class="num">  1,455,550  </td>
+                </tr>
+                <tr class="especial">
+                    <td>Maputo Província</td>
+                    <td class="num">  2,302,891</td>
+                </tr>
+                <tr>
+                    <td>Maputo cidade</td>
+                    <td class="num">1,127,565  </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total</th>
+                    <td class="num"><strong>30,832,244</strong>  </td>
+                </tr>
+            </tfoot>
+        </table>
+
+</main>
+
+    
+</body>
+</html>
