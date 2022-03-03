@@ -5,81 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas Grander</title>
+   
     <style>
-        body{
-            text-align: center;
-            font-size: 2.4vh;
-        }
 
-        caption{
-            font-size: 2vw;
-            font-size: 4.5vh;
-            background: lightgray;
-            border: 1px solid black;
-            margin-top: 10px;
+        body h1{
+            text-align: center;
         }
 
         main{
-            width: 60vw;
-            height: 96vh;
-            margin: auto;
-            margin-top: 20px;
-            border: 1px solid black;
-            background: skyblue;
-            box-shadow:  10px 10px 20px rgba(0, 0, 0, 0.3);
+        width: 90vw;
+        height: 87vh;
+        margin: auto;
+        /*background: yellow;*/
         }
-        
+
         table{
-            box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
-            text-align: left;
             border-collapse: collapse;
-            width: 50vw;
-            margin: auto;
-        }
-        
-        thead tr{
-            background: gray;
-            color: white;
-        }
-        
-        thead tr:hover{
-            background: gray;
-            color: white;
-        }
-        
-        thead tr, tfoot tr{
-            text-align: center;
             font-family: arial;
-            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3)
+            margin: auto;
+            width: 50vw;
+            height: 60vh;
         }
 
-        tfoot tr:hover{
-            background: white;
+        caption{
+            background: lightgray;
+            padding: 12px;
+            font-weight: bolder;
         }
 
-        tr:hover{
+        thead tr, tfoot th{
+            background: rgb(51, 51, 51);
+            color: white;
+        }
+
+        tbody tr:nth-child(2n){
+            background: lightgray;
+            font-weight: bold;
+        }
+
+        tbody tr:nth-child(2n-1):hover{
             background: lightgray;
         }
 
-        tr, tfoot tr{
-            background: white;
-        }
-        
-        tr.especial{
-            background: darkgray;
+        th{
+            height: 5vh;
         }
 
-        tr{
-            height: 6.2vh;
-        }
-        
-       tr, td, th{
+        td, th{
             border: 1px solid black;
         }
 
-        td.num{
+        .num{
+            width: 15vw;
             text-align: right;
         }
+
+
+        
     </style>
 </head>
 <body>
