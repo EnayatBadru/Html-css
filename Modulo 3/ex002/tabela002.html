@@ -11,9 +11,12 @@
             font-size: 2.4vh;
         }
 
-        h1{
-            font-size: 2.8vw;
-            font-size: 5vh;
+        caption{
+            font-size: 2vw;
+            font-size: 4.5vh;
+            background: lightgray;
+            border: 1px solid black;
+            margin-top: 10px;
         }
 
         main{
@@ -35,16 +38,19 @@
         }
         
         thead tr{
-            box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.5);
+            background: gray;
+            color: white;
         }
-
+        
+        thead tr:hover{
+            background: gray;
+            color: white;
+        }
+        
         thead tr, tfoot tr{
             text-align: center;
             font-family: arial;
-        }
-
-        thead tr:hover{
-            background: white;
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3)
         }
 
         tfoot tr:hover{
@@ -55,7 +61,7 @@
             background: lightgray;
         }
 
-        tr, thead tr, tfoot tr{
+        tr, tfoot tr{
             background: white;
         }
         
@@ -81,12 +87,12 @@
             Tabelas grandes em HTML
         </h1><!--titulo-->
 <main>
-    <h2>População em Moçambique</h2>
         <table>
+            <caption>População em Moçambique</caption>
             <thead>
                 <tr>
-                    <th>Provinciais</th>
-                    <th>Total Habitantes</th>
+                    <th scope="col">Provinciais</th>
+                    <th scope="col">Total Habitantes</th>
                 </tr>
             </thead>
             <tbody>
@@ -137,7 +143,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <th>Total</th>
+                    <th scope="row">Total</th>
                     <td class="num"><strong>30,832,244</strong>  </td>
                 </tr>
             </tfoot>
