@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+table{
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+td{
+    text-align: center;
+    width: 9vw;
+    height: 9vh;
+    border: 1px solid black;
+}
