@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclagem de células</title>
+    <style>
+        body{
+            background: lightgray;
+            text-align: justify;
+        }
+
+       body > h1{
+            text-align: center;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 30vw;
+            height: 30vh;
+            text-align: center;
+            background: white;
+            margin: auto;
+            font-size: 2em;
+        }
+        
+        caption{
+            background: black;
+            color: white;
+            font-weight: bolder;
+        }
+        
+    
+        td{
+            border: 1px solid black;
+        }
+
+        .container{
+            background: none;
+            width: 70vw;
+            height: 100%;
+            margin: auto;
+            margin-top: 20px;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vamos fazer uma mesclagem de célualas abaixo</h1>
+    <table>
+        <caption>Mesclagem de células</caption>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+        </tr>
+        <tr>
+            <td rowspan="2">D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+          
+            <td>H</td>
+            <td>I</td>
+        </tr>
+    </table>
+
+    <div class="container">
+        <h1>
+            Criação de mesclagem de células
+        </h1>
+
+        <h2>
+            podemos usar o colspan="num"
+        </h2>
+        <p>Esse comando nos fazemos que uma determinada célula ocupe as colunas escritas na parte num</p>
+
+        <h2>
+            podemos usar o rowspan="num"
+        </h2>
+        <p>Esse comando nos fazemos que uma determinada célula ocupe as linhas escritas na parte num</p>
+        
+
+    </div><!--container-->
+
+</body>
+</html>
