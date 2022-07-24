@@ -9,6 +9,6 @@
 <li><a href="https://enayatbadru.github.io/Html-css/Modulo%203/Desafios/Primeiro%20Desafio/DesafioCordel.html">Projeto Cordel Moderno</a>
 </li>
 
-<li><a href="https://enayatbadru.github.io/Html-css/Modulo%204/desafio/Primeiro-desafio/Desafio1.html">Projeto Social</a>
+<li><a href="https://enayatbadru.github.io/Html-css/Modulo%204/desafio/primeiro-desafio/Desafio1.html">Projeto Social</a>
 </li>
 </ul>
