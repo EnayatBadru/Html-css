@@ -89,13 +89,18 @@ li
     2px 0 2px rgba(0,0,0,.5),
     0 2px 4px rgba(0,0,0,.5),
     5px 5px 4px rgba(0,0,0,.5);
-    transition: all .3s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 #redes li a:hover
 {
-    box-shadow: none;
+    box-shadow: 0 0 6px rgba(0,0,0,.5),
+    4px 0 4px rgba(0,0,0,.5),
+    0 4px 8px rgba(0,0,0,.5),
+    10px 10px 8px rgba(0,0,0,.5);
+    border: 2px solid #fff;
     transform: translate(-15%, -5%); 
+    transition: transform .5s, border .6s;
 }
 
 #home
